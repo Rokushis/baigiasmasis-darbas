@@ -2,9 +2,9 @@ import express from "express"
 import mongoose from "mongoose"
 import "dotenv/config"
 
-import authRoutes from "./Routes/authRoutes.js"
-import userRoutes from "./Routes/userRoutes.js"
-import ticketRoutes from "./Routes/ticketRoutes.js"
+import authRoutes from "./rauthRoutes.js"
+import userRoutes from "./ruserRoutes.js"
+import ticketRoutes from "./rticketRoutes.js"
 
 const app = express()
 app.use(express.json())
